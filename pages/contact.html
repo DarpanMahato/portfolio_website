@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CONTACT US</title>
+	<meta name="description" content="CONTACT US"/>
+	<meta name="keywords" content="HTML, CSS, JS">
+	<meta name="author" content="Darpan Mahato">
+    <link rel='stylesheet' type='text/css' href='../css/style.css'>
+    <script src='../js/main.js'></script>
+</head>
+
+<body class="background">
+	<div>
+		<!-- header section-->
+		<header>
+			<div class="main">
+				<div class="logo">
+					<a href="assignment.html"><img src="../images/logo.png"> </a>	
+				</div>
+
+				<!-- navigation links-->
+				<nav>
+					<ul>
+						<li><a href="../home.html">HOME</a></li>
+						<li><a href="../pages/cv.html">MY CV</a></li>
+						<li><a href="../pages/blogs.html"> BLOGS</a></li>
+						<li><a href="../pages/research.html">RESEARCH</a></li>
+						<li class="active"><a href="#">CONTACT US</a></li>
+					</ul>
+				</nav>
+				<!--end navigation-->
+
+			</div>
+		</header>
+		<!-- header section end-->
+
+		<!-- formValidation-->
+		<div style="	position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); background: #ff8600; height: 350px; width: 350px;">
+		<form name="messageForm" onsubmit="validateForm()" style="padding: 0px 50px;">
+			<p>First name : <input type="text" name="firstname"></p>
+			<p>Last  name  : <input type="text" name="lastname"></p>
+			<p>Gender: <input type="radio" name="gender" value="male" checked> Male 
+			<input type="radio" name="gender" value="female"> Female </p>
+			<p>Message: <br><textarea name="message" rows="10" cols="30" placeholder="Enter Your Message"></textarea></p>
+			<p><input type="submit" value="Submit"></p>
+		</form>
+		</div>
+
+		<!-- footer-->
+		<footer>
+			<div class="contact" style="color:#ff0000;">
+				<hr>
+				<h2>SOCIAL</h2>
+			</div>
+			
+			<div class="links">
+				<a href="mailto:darpan2058@gmail.com" target="_blank">
+					<img src="../images/mail.png" height="39" width="39" alt="Mail">
+				</a>
+				<a href="https://www.facebook.com/darpn.777" target="_blank">
+					<img src="../images/fb.png" height="39" width="39" alt="Facebook">
+				</a>
+				<a href="https://twitter.com/darpanwanderer" target="_blank">
+					<img src="../images/twitter.png" height="39" width="39" alt="Twitter">
+				</a>
+			</div>
+
+			<!--bottom-->
+			<div style="position: absolute; top: 130%; left: 50%; transform: translate(-50%, -50%);">
+				&copy;Darpan Mahato |Designed By Darpan Mahato
+			</div>
+		</footer>
+		<!-- end footer-->
+
+	</div>
+</body>
+</html> 
